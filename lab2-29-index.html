@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>个人简历</title>
+    <!--引入Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <!-- 引入Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="" />
+    <style>
+      .view {
+        float: none;
+        margin:0 auto;
+      }
+      .image-container{
+       width: 100%;
+       padding: 8px;
+      }
+      img {
+        width: 180px;
+        height: 80px;
+      }
+      img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+      table {
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-image: url("picture/3.jpg");
+      }
+      table,
+      th,
+      td {
+       padding: 12px 8px;
+       text-align: center;
+       vertical-align: middle;
+       border: 1px solid #0550b9;
+      }
+      tr {
+        text-align: center;
+      }
+      .stuff {
+        background-color: rgb(217, 131, 20);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        个人简历
+      </caption>
+      <tr>
+        <th>姓名</th>
+        <td>张俊菲</td>
+        <th>性别</th>
+        <td>女</td>
+        <th>年龄</th>
+        <td>19</td>
+        <th class="label" rowspan="3" colspan="4">
+          <!--定义一个id为"view"的块级父元素,添加类名image-container-->
+          <div class="image-container">
+            <div class="view">
+              <img src="picture/self.jpg" />
+            </div>
+          </div>
+        </th>
+        </td>
+      </tr>
+      <tr>
+        <th>籍贯</th>
+        <td>汉族</td>
+        <th>
+          <p><strong class="flex items-center"><i class="fa-solid fa-phone mr-2" style="color: cadetblue;"></i>联系电话</strong></p></th>
+        <td>13583478426</td>
+        <th>
+          <p><strong class="flex items-center"><i class="fa-solid fa-envelope mr-2" style="color: cadetblue;"></i>电子邮箱</strong></p></th>
+        <td>2591466760@qq.com</td>
+      </tr>
+      <tr>
+        <th>学历</th>
+        <td>本科在读</td>
+        <th>健康状况</th>
+        <td>良好</td>
+        <th>婚姻状况</th>
+        <td>未婚</td>
+      </tr>
+      <tr>
+        <th>求职意向</th>
+        <td>软件工程师</td>
+        <th>专业</th>
+        <td class="label" colspan="2">软件工程</td>
+        <!--水平合并两行-->
+        <th>
+          <p><strong class="flex items-center"><i class="fa-solid fa-school mr-2" style="color: cadetblue;"></i>毕业院校</strong></p></th>
+        <td class="label" colspan="4">鲁东大学</td>
+      </tr>
+      <tr>
+        <th>
+        <p><strong class="flex items-center"><i class="fa-solid fa-certificate mr-2" style="color: cadetblue;"></i>
+</i>技能证书</strong>
+        </p>
+        </th>
+        <td class="label" colspan="6">
+        </td>
+        <!--水平合并六行-->
+      </tr>
+      <tr>
+        <th>
+         <p><strong class="flex items-center"><i class="fas fa-solid fa-heart mr-2" style="color: cadetblue
+         ;"></i>个人特长与爱好</strong>
+        </p>
+        </th>
+        <td class="label" colspan="6">
+          <ol>
+            <li>制作web网页</li>
+            <li>熟悉web开发的软件</li>
+          </ol>
+        </td>
+        <!--水平合并六行-->
+      </tr>
+      <tr>
+        <th>项目经历</th>
+        <td class="label" colspan="6">
+          <ol>
+            <li>基于金蝶云苍穹开发的智慧校园Agent</li>
+            <li>基于多模态大模型的数字化教学资源制作系统</li>
+            <li>基于开源AI大模型的教学实训智能体软件</li>
+          </ol>
+        </td>
+        <!--水平合并六行-->
+      </tr>
+      <tr>
+        <th>自我评价</th>
+        <td class="label" colspan="6">
+          我是软件工程专业的大一新生，自入学以来便对web开发领域产生了浓厚的兴趣，始终以积极探索的态度开启技术学习之路，渴望能加入web实验室这个大家庭，在实践中提升自我、贡献力量。虽然目前专业学习尚在基础阶段，但我已利用课余时间主动搭建了HTML+CSS基础框架认知，通过在线课程完成了简单静态网页的制作，掌握了标签语义化、CSS选择器及浮动布局等基础技能，能独立实现包含图文排版、导航栏的页面效果。在制作网页和调试过程中逐渐培养了问题排查与逻辑梳理的能力。
+        </td>
+        <!--水平合并六行-->
+      </tr>
+    </table>
+  </body>
+</html>
