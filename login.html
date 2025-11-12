@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>用户登录</title>
+    <link rel="stylesheet" href="Css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="login">
+      <div class="header">
+        <ul class="pass">
+          <li><a href="#">密码登录</a><span class="line">|</span></li>
+          <li><a href="#">验证码登录</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <form action="" method="post" target="">
+          <div class="form-group">
+            <label for="use">姓名</label>
+            <input
+              type="text"
+              name="user"
+              value=""
+              id="use"
+              placeholder="手机号/邮箱/微信"
+            />
+          </div>
+          <div class="form-group">
+            <label for="word">密码</label>
+            <input
+              type="password"
+              name="pass"
+              value=""
+              id="word"
+              placeholder="请输入密码"
+            />
+          </div>
+          <p class="agree">登录即同意<a href="#">用户协议、隐私政策</a></p>
+          <div class="but">
+            <input type="submit" name="" value="登录" />
+          </div>
+        </form>
+        <ul class="register">
+          <li><a href="#">立即注册</a></li>
+          <li><a href="#">忘记密码</a></li>
+        </ul>
+        <div class="footer">
+          <!--其他方式登录-->
+          <ul>
+            <li><img src="pictures/wechat.jpg" alt="微信登录" /></li>
+            <li><img src="pictures/qq.jpg" alt="qq登录" /></li>
+            <li><img src="pictures/douyin.jpg" alt="抖音登录" /></li>
+            <li><img src="pictures/weibo.jpg" alt="微博登录" /></li>
+          </ul>
+        </div>
+        <div class="back-home">
+          <li>
+            <a
+              href="lab5-29-index.html"
+              style="text-decoration: none; color: inherit"
+              ><i class="fa fa-arrow-circle-left"></i
+            ></a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
