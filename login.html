@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>用户登录</title>
-    <link rel="stylesheet" href="Css/login.css" />
+    <link rel="stylesheet" href="Css/实验.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -11,6 +11,15 @@
   </head>
   <body>
     <div id="login">
+      <div class="back-home">
+        <li>
+          <a
+            href="lab5-29-index.html"
+            style="text-decoration: none; color: inherit"
+            ><i class="fa fa-home"></i
+          ></a>
+        </li>
+      </div>
       <div class="header">
         <ul class="pass">
           <li><a href="#">密码登录</a><span class="line">|</span></li>
@@ -20,7 +29,9 @@
       <div class="main">
         <form action="" method="post" target="">
           <div class="form-group">
-            <label for="use">姓名</label>
+            <label for="use" class="icon-label">
+              <i class="fa fa-user"></i
+            ></label>
             <input
               type="text"
               name="user"
@@ -30,7 +41,9 @@
             />
           </div>
           <div class="form-group">
-            <label for="word">密码</label>
+            <label for="word" class="icon-label">
+              <i class="fa fa-lock"></i
+            ></label>
             <input
               type="password"
               name="pass"
@@ -56,15 +69,6 @@
             <li><img src="pictures/douyin.jpg" alt="抖音登录" /></li>
             <li><img src="pictures/weibo.jpg" alt="微博登录" /></li>
           </ul>
-        </div>
-        <div class="back-home">
-          <li>
-            <a
-              href="lab5-29-index.html"
-              style="text-decoration: none; color: inherit"
-              ><i class="fa fa-arrow-circle-left"></i
-            ></a>
-          </li>
         </div>
       </div>
     </div>

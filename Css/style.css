@@ -55,7 +55,7 @@ body {
 .header .nav li {
   float: left;
   margin: 0 15px;
-  line-height: 80px;
+  line-height: 28px;
   cursor: pointer;
   position: relative;
   padding: 0 5px;
@@ -90,7 +90,6 @@ body {
   float: none;
   margin: 0;
   padding: 10px 15px;
-  line-height: 1.5;
   list-style: none;
   color: #333;
   white-space: nowrap;
