@@ -49,6 +49,7 @@ body {
 .back-home:hover {
   color: #a70404;
   padding-left: 5px;
+  transform: scale(1.1);
 }
 .back-home i {
   font-size: 16px;
